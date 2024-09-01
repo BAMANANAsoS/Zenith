@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {margin: 0; padding: 0;}
+img {vertical-align: top;}
+li {list-style: none;}
+a {text-decoration:none; color: inherit;}
+
+body {font-size: 13px; color: #666; font-family: "Noto Sans KR";}
+.wrap {width: 980px; margin: 0 auto; position: relative;}
+ul:after, .cl:after, .wrap:after {content: ''; clear: both; display: block;}
+.hide {position: absolute; left: -9999px; font-size: 0; width: 0; height: 0; overflow: hidden;}
+.fl {display: flex; align-items: center; justify-content: center;}
+.fl:after {display: none;}
+
+
+header {width: 100%; position: absolute; z-index: 99;}
+header .box {width: 1200px; background: #fff; margin: 0 auto; height: 76px;}
+header .box h1 {padding-top: 20px;}
+header .box ul {position: absolute; right: 0; top: 28px;}
+header .box ul li {font-weight: bold; font-size: 16px; float: left; margin: 0 30px; color: #000;}
+
+
+footer ul li {line-height: 50px; float: left; margin-right: 30px; font-size: 16px; font-weight: bold;}
+footer > .wrap > a {width: 250px; line-height: 50px; color: #fff; text-align: center; background: #000; position: absolute; right: 0; top: 0;}
+footer > .wrap a span {margin-left: 40px;}
+
+footer .box {border-top: 1px solid #888; width: 1200px; margin: 0 auto;}
+footer address {font-style: normal; line-height: 1.6; padding: 16px 0;}
+
+
+
+
+#main {background:url(OMG/visual%20copy.jpg) no-repeat center/cover; height: 600px;}
+
+#main h3 {font-size: 44px; font-weight: bold; color: #000; line-height: 1.2; padding: 200px 0 0 30px;}
+
+#main strong {margin-top: 10px; font-weight: bold; font-size: 48px; color: #000; display: inline-block; margin-left: 30px;}
+
+#cont {padding: 30px 0 30px;}
+#cont .top div {width: 484px; height: 484px; float: left;}
+#cont .top .right {margin-left: 12px;}
+#cont .top a {width: 236px; height: 236px; background: #cfc; display: block; border: 1px solid #000; padding: 30px 0 0 30px; box-sizing: border-box; position: relative;}
+#cont .top a h3 {font-size: 20px; color: #000; margin-bottom: 16px;}
+#cont .top a p {font-weight: bold; line-height: 1.6;}
+#cont .top a img {position: absolute; left: 30px; bottom: 30px;}
+#cont .top .left a {float:  left;}
+#cont .top .left a:nth-child(1) {background:url(OMG/pos%20copy.jpg) no-repeat bottom right;}
+#cont .top .left a:nth-child(2) {background:url(OMG/pad%20copy.jpg) no-repeat bottom 0 right 0; margin-left: 12px;}
+#cont .top .left a:nth-child(3) {background:url(OMG/com%20copy.jpg) no-repeat bottom 0 right 0; margin-top: 12px; width: 100%;}
+#cont .top .right {background:url(OMG/tab%20copy.jpg) no-repeat center/cover;}
+#cont .top .right a {background: #888; color: #eee; border-color: #888;}
+#cont .top .right a h3 {color: #eee;}
+
+#cont .bot {margin-top: 12px;}
+#cont .bot article {width: 490px; border: 1px solid #000; box-sizing: border-box; float: left; background: #fff; padding: 24px 20px;}
+#cont .bot article:last-child {border-left: none;}
+#cont .bot article h3 {color: #000; padding: 0 70px 16px 10px; border-bottom: 1px solid #888; display: inline-block;}
+#cont .bot article div {padding: 10px 0 0 10px;}
+#cont .bot article div a {font-size: 24px; font-weight: bold; color: #000;}
+#cont .bot article div b {font-size: 16px; color: #000;}
+
+/*서브페이지*/
+.sv {height: 350px;}
+#sv1 {background:url(OMG/subV_type1%20copy.jpg)}
+
+.sv p {font-size: 22px; font-weight: bold; line-height: 1.4; padding: 190px 0 0 40px; color: #000;}
+
+.cont {padding: 60px 0 100px;}
+.cont nav {width: 240px; float: left;}
+
+.cont nav h3 {font-size: 34px; color: #22b14c; padding: 0 0 20px 30px; font-weight: normal;}
+.cont nav ul {border-top: 1px solid #000;}
+.cont nav ul li {line-height: 50px; border-bottom: 1px dotted #ccc;}
+.cont nav ul li a {font-size: 14px; font-weight: bold; display: block; padding-left: 40px;}
+.cont nav ul .select a {background: #ccc; color: #000;}
+
+.cont nav + div {width: 700px; float: right;}
+
+.cont .title {border-bottom: 1px solid #000;}
+.cont .title h3 {font-size: 34px; color: #000; padding-bottom: 20px; font-weight: normal;}
+.cont .title p {position: absolute; right: 0; top: 18px;}
+
+#card .cont1 {height: 180px; background:url(OMG/pos1_copy.jpg) no-repeat right center; box-sizing: border-box; padding: 30px 0;}
+#card .cont1 dl dt {font-weight: bold; color: #000; font-size: 18px; margin-bottom: 20px;}
+#card .cont1 dl dd {line-height: 1.6; font-weight: bold;}
+
+
+#card .cont2 h3 {font-size: 18px; color: #000; margin-top: 20px; margin-bottom: 10px;}
+
+#card .cont2 ul {border-top: 2px dashed #ddd; margin-top: 10px;}
+#card .cont2 ul li {float: left; width: 340px; border-bottom: 1px solid #ddd; padding-top: 20px; height: 160px;}
+#card .cont2 ul li:first-child {margin-right: 20px;}
+#card .cont2 ul li h4 {margin: 10px 0; font-size: 15px;}
+#card .cont2 ul li p {line-height: 1.6;}
+
+#card .cont3 {margin-top: 50px;}
+#card .cont3 h3{font-size: 18px; font-weight: bold; color: #000;}
+#card .cont3 h3:before {content: ''; width: 50px; display: block; border-bottom: 3px solid #3d3a7d; margin-bottom: 10px; border-right:3px solid #fff;}
+
+#card .cont3 ul li {width: 340px; box-sizing: border-box; border: 1px solid #ddd; float: left; margin: 20px 20px 0 0; padding: 30px 0 0 80px; height: 130px;}
+#card .cont3 ul li:nth-child(2n) {margin-right: 0;}
+
+#card .cont3 ul li:nth-child(1) {background: url(OMG/bt1copy.jpg) no-repeat;}
+#card .cont3 ul li:nth-child(2) {background: url(OMG/bt2copy.jpg) no-repeat;}
+#card .cont3 ul li:nth-child(3) {background: url(OMG/bt3copy.jpg) no-repeat;}
+#card .cont3 ul li:nth-child(4) {background: url(OMG/bt4copy.jpg) no-repeat;}
+
+#card .cont3 ul li dt {color: #000; font-size: 16px; margin-bottom: 8px; font-weight: bold;}
+#card .cont3 ul li dd {line-height: 1.6;}
+
+
+
+
+
+
